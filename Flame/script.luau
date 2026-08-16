@@ -1766,7 +1766,7 @@ function CheckQuest()
 end;
 
 -- ===== Wind UI bootstrap =====
-local Library = loadstring(game:HttpGet("https://github.com/bloxfruitsnokey/Wind/releases/latest/download/ui.lua"))()
+local Library = loadstring(game:HttpGet("https://github.com/bloxfruitsnokey/Wind/releases/latest/download/amber.lua"))()
 
 local Window = Library:CreateWindow({
     Title = "Flame Hub",
