@@ -1771,8 +1771,7 @@ local Library = loadstring(game:HttpGet("https://github.com/bloxfruitsnokey/Wind
 local Window = Library:CreateWindow({
     Title = "Flame Hub",
     Author = "Blox Fruits",
-    Icon = "rbxassetid://95083144929901",
-    Theme = "Amber"
+    Icon = "rbxassetid://95083144929901"
 })
 
 -- ===== end bootstrap =====
