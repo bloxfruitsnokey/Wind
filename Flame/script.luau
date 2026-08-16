@@ -1768,37 +1768,11 @@ end;
 -- ===== Wind UI bootstrap =====
 local Library = loadstring(game:HttpGet("https://github.com/bloxfruitsnokey/Wind/releases/latest/download/ui.lua"))()
 
--- ===== Flame Theme Custome Sendiri =====
-Library:AddTheme({
-    Name = "Flame",
-
-    Accent = Color3.fromHex("#FF4D00"),
-    Dialog = Color3.fromHex("#111111"),
-    Outline = Color3.fromHex("#292929"),
-
-    Text = Color3.fromHex("#FFFFFF"),
-    Placeholder = Color3.fromHex("#777777"),
-
-    Background = Color3.fromHex("#0D0D0D"),
-    Button = Color3.fromHex("#171717"),
-    Icon = Color3.fromHex("#FF5A00"),
-
-    Hover = Color3.fromHex("#FF4D00"),
-
-    WindowBackground = Color3.fromHex("#0D0D0D"),
-    WindowShadow = Color3.fromHex("#000000"),
-
-    DialogBackground = Color3.fromHex("#111111"),
-    DialogTitle = Color3.fromHex("#FFFFFF"),
-    DialogContent = Color3.fromHex("#D0D0D0"),
-})
-
-Library:SetTheme("Flame")
-
 local Window = Library:CreateWindow({
     Title = "Flame Hub",
     Author = "Blox Fruits",
     Icon = "rbxassetid://95083144929901"
+    Theme = "Amber"
 })
 
 -- ===== end bootstrap =====
