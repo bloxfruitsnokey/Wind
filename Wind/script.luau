@@ -13,7 +13,7 @@ pcall(function()
 		CU.ApplyDamageHighlight = function() end;
 	end;
 end);
-loadstring(game:HttpGet("https://https://raw.githubusercontent.com/bloxfruitsnokey/Wind/refs/heads/main/combat.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloxfruitsnokey/Wind/refs/heads/main/combat.luau"))()
 local Y = game.Players;
 local d = Y.LocalPlayer;
 local R = d.Character.HumanoidRootPart;
@@ -1764,8 +1764,8 @@ function CheckQuest()
 		end;
 	end;
 end;
--- ===== Wind UI bootstrap =====
-local Library = loadstring(game:HttpGet("https://github.com/bloxfruitsnokey/Wind/releases/latest/download/ui.lua"))()
+-- ===== vonlib (Redz) UI bootstrap =====
+local Library = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = Library:CreateWindow({
 	Title = "Wind Hub",
