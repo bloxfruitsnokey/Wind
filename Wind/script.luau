@@ -1764,8 +1764,8 @@ function CheckQuest()
 		end;
 	end;
 end;
--- ===== vonlib (Redz) UI bootstrap =====
-local Library = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+-- ===== Wind UI bootstrap =====
+local Library = loadstring(game:HttpGet("https://github.com/bloxfruitsnokey/Wind/releases/latest/download/ui.lua"))()
 
 local Window = Library:CreateWindow({
 	Title = "Wind Hub",
