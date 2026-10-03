@@ -14,7 +14,7 @@ local ACCENT = Color3.fromRGB(145, 155, 55)
 local COPIED_COLOR = Color3.fromRGB(225, 135, 45)
 
 -- Your script / loader link
-local SCRIPT_LINK = "scriptpastebin"
+local SCRIPT_LINK = "https://discord.gg/pKS6qzcaqB"
 
 --==================================================
 -- SCREEN GUI
